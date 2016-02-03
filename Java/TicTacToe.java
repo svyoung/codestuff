@@ -3,8 +3,6 @@ import java.util.*;
 public class TicTacToe {
 	
 	public static Scanner input = new Scanner(System.in);
-	public static final int X = 1; // player 1
-	public static final int O = 2; // player 2
 	public static String[] board;
 	
 	 public static void printBoard(String board[]) {
@@ -27,37 +25,37 @@ public class TicTacToe {
 	public static int winner(String board[]) {
 		int result = 0;
 		if(board[0] == "X" && board[1] == "X" && board[2] == "X") {
-			result = X;
+			result = 1;
 		} else if(board[3] == "X" && board[4] == "X" && board[5] == "X" ) {
-			result = X;
+			result = 1;
 		} else if(board[6] == "X" && board[7] == "X" && board[8] == "X" ) {
-			result = X;
+			result = 1;
 		} else if(board[0] == "X" && board[3] == "X" && board[6] == "X" ) {
-			result = X;
+			result = 1;
 		} else if(board[1] == "X" && board[4] == "X" && board[7] == "X" ) {
-			result = X;
+			result = 1;
 		} else if(board[2] == "X" && board[5] == "X" && board[8] == "X" ) {
-			result = X;
+			result = 1;
 		} else if(board[0] == "X" && board[4] == "X" && board[8] == "X" ) {
-			result = X;
+			result = 1;
 		} else if(board[2] == "X" && board[4] == "X" && board[6] == "X" ) {
-			result = X;
+			result = 1;
 		} else if(board[0] == "O" && board[1] == "O" && board[2] == "O") {
-			result = O;
+			result = 2;
 		} else if(board[3] == "O" && board[4] == "O" && board[5] == "O" ) {
-			result = O;
+			result = 2;
 		} else if(board[6] == "O" && board[7] == "O" && board[8] == "O" ) {
-			result = O;
+			result = 2;
 		} else if(board[0] == "O" && board[3] == "O" && board[6] == "O" ) {
-			result = O;
+			result = 2;
 		} else if(board[1] == "O" && board[4] == "O" && board[7] == "O" ) {
-			result = O;
+			result = 2;
 		} else if(board[2] == "O" && board[5] == "O" && board[8] == "O" ) {
-			result = O;
+			result = 2;
 		} else if(board[0] == "O" && board[4] == "O" && board[8] == "O" ) {
-			result = O;
+			result = 2;
 		} else if(board[2] == "O" && board[4] == "O" && board[6] == "O" ) {
-			result = O;
+			result = 2;
 		} else {
 			// nobody wins
 			result = 3;
