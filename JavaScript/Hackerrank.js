@@ -89,7 +89,7 @@ function sockMerchant(n, ar) {
     var count = 0;
     ar.sort();
 
-    for(var i = 0; i < ar.length - 1; i++) {
+    for(var i = 0; i < n - 1; i++) {
         if(ar[i] === ar[i+1]) {
             count++;
             i++;
