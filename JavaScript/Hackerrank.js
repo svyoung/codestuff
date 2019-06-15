@@ -130,8 +130,3 @@ function jumpingOnClouds(c) {
     }
     return count;
 }
-
-
-
-
-

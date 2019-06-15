@@ -1,9 +1,7 @@
 
 <?php
 
-
 class Palindrome {
-
 	function isPalindrome($str) {
 
 		$new = str_replace(" ", "", strtolower($str));
