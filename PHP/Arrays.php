@@ -17,9 +17,8 @@ $array1 = array(-2, 4, -10, 8, 9, 5, -8, -7, 10);
 echo negFirst($array1);
 
 
+
 // find the largest difference in the array A = B[i] - C[j] where j > i
-
-
 
 function largestDiff($array) {
     $max = 0;
