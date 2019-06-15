@@ -3,7 +3,6 @@
  (5 kilos each) along with the goal amount of kilos we need to ship the customer.  Return the amount of small bags the package
  will contain assuming we always use big bags first.  Return -1 if it cannot be done.
 
-
  If the total is less than or equal to the goal, we calculate the remaining kilos by subtracting the goal and total kilos,
  we get the remaining of the remaining 5 kilos, and add the initial given small bag.
  */
